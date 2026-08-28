@@ -1,0 +1,22 @@
+$ curl https://api.github.com/repos/yeraliev/mcino-Introduction-to-Git-and-GitHub
+
+    "full_name": "yeraliev/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
+    ...
+    "fork": true,
+    "url": "https://api.github.com/repos/yeraliev/mcino-Introduction-to-Git-and-GitHub",
+    "forks_url": "https://api.github.com/repos/yeraliev/mcino-Introduction-to-Git-and-GitHub/forks",
+    ...
+    "parent": {
+        "id": 1050225087,
+        "node_id": "R_kgDOPpkpvw",
+        ...
+        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "private": false,
+        ...
+        "fork": false,
+        "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "forks_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/forks",
+        ...
+
+The "fork": true field and "parent.full_name" confirm that yeraliev/mcino-Introduction-to-Git-and-GitHub was successfully forked from ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.
