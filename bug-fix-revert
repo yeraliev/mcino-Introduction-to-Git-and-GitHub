@@ -1,0 +1,21 @@
+$ curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10698
+
+{
+  "number": 10698,
+  "state": "closed",
+  "title": "Revert incorrect README change",
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "yeraliev/mcino-Introduction-to-Git-and-GitHub"
+    }
+  },
+  "base": {
+    "repo": {
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  },
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/10698"
+}
+
+The API response confirms pull request #10698 is valid and was created from branch "bug-fix-revert" on the forked repository yeraliev/mcino-Introduction-to-Git-and-GitHub, targeting the upstream repository ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub. (state is "closed" because the upstream repo has an automated GitHub Action that closes incoming pull requests once submitted.)

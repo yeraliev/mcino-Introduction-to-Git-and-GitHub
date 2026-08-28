@@ -1,0 +1,14 @@
+$ git branch -vv
+  bug-fix-revert e954af7 Revert "Add incorrect line to README"
+  bug-fix-typo   03dc9e4 Fix typo: Addtional -> Additional
+* main           468cd44 [origin/main] Add Task 6 and Task 7 output files
+
+$ git branch -a
+  bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/main
+  remotes/upstream/HEAD -> upstream/main
+  remotes/upstream/main
